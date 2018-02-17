@@ -22,7 +22,7 @@ public class Lab2 {
 		vowels.add('ю');
 		vowels.add('я');
 		for (int i = 0; i < string.length(); i++) {
-			if(vowels.contains(string.toLowerCase().charAt(i)))count++;
+			if (vowels.contains(string.toLowerCase().charAt(i))) count++;
 		}
 		return count;
 	}
